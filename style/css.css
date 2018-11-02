@@ -9,7 +9,6 @@
   clear: both;
 }
 .container {
-/*border: 1px solid;*/
   width: 940px;
   margin: auto;
 }
@@ -79,19 +78,15 @@
   margin-bottom: 40px;
   font-size: 20px;
 }
-.slogan-button {
+.top-but {
   border: 0;
-  border-radius: 10px;
-  width: 172px;
-  height: 64px;
-  background-color: #fa5c65;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-weight: bold;
-  margin-top:-5px;
   cursor: pointer;
-  outline: none;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
+  background-color: #fa5c65;
 }
 .snippets {
   height: 280px;
@@ -172,7 +167,7 @@ color: #465065;
   margin-top: 50px;
 }
 .our-team-title {
-  font-family: Montserrat;
+  font-family: "Montserrat",sans-serif;
   font-size: 32px;
   color: #314a5b;
   margin-bottom: 50px;
@@ -233,7 +228,7 @@ color: #465065;
   display: block;
   padding: 5px;
 }
-.copyrights {
+.copyrights{
   font-family: "Open Sans";
   font-size: 13px;
   color: #b9c0c6;
